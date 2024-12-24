@@ -1,15 +1,55 @@
+
+/* remember below will overight */
 body {
     background-color: #333;
     color: #f4f4f4;
 }
 
+header {
+    background: #bebcbc;
+    color: #6b6a6a;
+    text-align: center;
+    width: 500px;
+    /* margin & padding values: top/bottom, left/right */
+    margin: 10px 40px ;
+    padding: 20px 80px;
+}
+
+main {
+    background: #6b6a6a;
+    color: #bebcbc;
+    width: 500px;
+    /* margin & padding values: top, right, bottom, left */
+    margin:10px 20px 100px 40px;
+    padding: 20px 80px 20px 80px;
+    border-top: solid 10px;
+    border-left: solid 10px;
+}
+
+footer {
+    background: #bebcbc;
+    color: #6b6a6a;
+    text-align: center;
+    width: 500px;
+    /* margin & padding values: top, left/right, bottom */
+    margin: 25px 40px 15px;
+    padding: 20px 80px 20px;
+}
+
+.earth_img {
+    border-color: lightgreen;
+    border-width: 10px;
+    border-style: double;
+}
+
+.mars_img {
+    border: 10px double darksalmon;
+
+}
 a {
     color: darksalmon;
 }
 
-h1{
-    color: darkkhaki;
-}
 
 .intro {
     font-size: 24px;
